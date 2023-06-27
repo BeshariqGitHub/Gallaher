@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a, ul, h2, span, p{
+    margin: 0;
+    cursor: default;
+}
+a, ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+a, button{
+    cursor: pointer;
+}
