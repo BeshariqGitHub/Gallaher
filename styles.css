@@ -5,6 +5,7 @@ body{
 a, ul, h2, span, p{
     margin: 0;
     cursor: default;
+    font-family: sans-serif;
 }
 a, ul{
     text-decoration: none;
@@ -21,4 +22,36 @@ a, button{
     display: flex;
     align-items: center;
     height: 100px;
+}
+
+
+.list{
+    display: flex;
+    align-items: center;
+}
+.link-logo{
+    margin-right: 555px;
+}
+.header-top__link{
+    font-size: 20px;
+    color: black;
+    margin-right: 40px;
+}
+.header-top__link:hover{
+    text-decoration: underline;
+}
+.header-top__wrapper{
+    display: flex;
+    align-items: center;
+}
+.header-top__input{
+    height: 25px;
+    margin-right: 6.66px;
+}
+.header-top__input:focus{
+    outline: none;
+}
+.header-top__src-btn{
+    border: none;
+    background: transparent;
 }
