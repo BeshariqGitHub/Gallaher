@@ -55,3 +55,35 @@ a, button{
     border: none;
     background: transparent;
 }
+
+
+.header-bottom__title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.header-bottom__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-bottom__projects-title{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.header-bottom__wrapper-imgs{
+    margin-top: 25px;
+}
+.header-bottom__text, .header-bottom__text-2, .header-bottom__text-3{
+    text-align: center;
+    color: gray;
+}
+.header-bottom__text{
+    margin-top: 30px;
+}
+.header-bottom__text-2{
+    margin-top: 10px;
+}
+.header-bottom__text-3{
+    margin-top: 10px;
+}
